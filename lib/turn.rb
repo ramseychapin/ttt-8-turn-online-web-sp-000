@@ -31,3 +31,5 @@ def move(board, index, character = "X")
   board[index] = character
   return board
 end
+
+#CLI. Asks for a number, checks if valid, 
