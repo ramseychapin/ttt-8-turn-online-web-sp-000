@@ -32,4 +32,7 @@ def move(board, index, character = "X")
   return board
 end
 
-#CLI. Asks for a number, checks if valid, 
+#CLI. Asks for a number, checks if valid,
+def turn (board)
+
+end
