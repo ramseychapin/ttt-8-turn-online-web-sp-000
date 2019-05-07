@@ -26,6 +26,7 @@ def position_taken?(board, index)
   end
 end
 
+#takes a user's position number, board, and places X or O character in that position
 def move(board, index, character = "X")
   board[index] = character
   return board
